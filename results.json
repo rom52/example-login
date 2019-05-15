@@ -1,0 +1,62 @@
+[
+  {
+    "elements": [
+      {
+        "id": "login;realizar-login-com-usuário-inválido",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Realizar login com usuário inválido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "name": "que eu estou na tela login",
+            "result": {
+              "status": "passed",
+              "duration": 3216901
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\projetoCucumberCassio\\steps\\login.step.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "name": "eu informo email inválido botao logar",
+            "result": {
+              "status": "passed",
+              "duration": 17591885900
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\projetoCucumberCassio\\steps\\login.step.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "name": "devo visualizar mensagem E-mail ou senha incorretos",
+            "result": {
+              "status": "failed",
+              "duration": 18826089500,
+              "error_message": "NoSuchWindowError: Browsing context has been discarded\n    at Object.throwDecodedError (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:514:15)\n    at parseHttpResponse (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at doSend.then.response (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\nFrom: Task: WebDriver.findElements(By(css selector, .entrar-formError.--zeroLeft))\n    at Driver.schedule (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.findElements (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1048:19)\n    at ptor.waitForAngular.then (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:159:44)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at <anonymous>\nFrom: Task: <anonymous>\n    at Timeout.pollCondition [as _onTimeout] (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2195:19)\n    at ontimeout (timers.js:498:11)\n    at tryOnTimeout (timers.js:323:5)\n    at Timer.listOnTimeout (timers.js:290:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:59:33)\n    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\\Users\\romulo.silva\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\browser.js:67:16)\n    at World.<anonymous> (C:\\projetoCucumberCassio\\steps\\login.step.js:41:13)"
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\projetoCucumberCassio\\steps\\login.step.js:40"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "line": 2,
+    "name": "Login",
+    "tags": [],
+    "uri": "C:\\projetoCucumberCassio\\features\\login.feature"
+  }
+]
